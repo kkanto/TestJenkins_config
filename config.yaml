@@ -1,0 +1,60 @@
+generalInformation:
+  serviceAdminEmail: a
+  gheUsername: kkanto
+  billingAccount: a
+  billingTeamName: a
+  gheToken: ""
+  adpAccessToken: ""
+jira:
+  adminToken: ""
+  projectKey: a
+  projectName: a
+  leadUsername: a
+  documentationUrl: a
+projectInformation:
+  projectName: TestJenkins
+  projectShortName: TestJenkins
+  buildType: maven
+  testInstance: false
+  preprodInstance: false
+  uatInstance: false
+cloudService:
+  awsOrAzure: aks
+  deploymentLocation: azure_we1
+  acpOrCRP: acp
+  displayName: a
+  version: a
+  productionCluster: false
+  subscriptionId: a
+  enableStorageProvisioning: true
+  ingressSubnetName: a
+  clusterSubnetName: a
+  adAdminGroupName: a
+  adViewerGroupName: a
+  adEditorGroupName: a
+  privateDnsZone: a
+  awsAccountId: ""
+  instanceType: ""
+  r53HostedZoneDomainName: ""
+  sshWorkerKey: ""
+  availabilityZones: ""
+  az1HarmonizedSubnetId: ""
+  az1WorkerSubnetId: ""
+  az1PodSubnetId: ""
+  az2HarmonizedSubnetId: ""
+  az2WorkerSubnetId: ""
+  az2PodSubnetId: ""
+  az3HarmonizedSubnetId: ""
+  az3WorkerSubnetId: ""
+  az3PodSubnetId: ""
+  workerSecurityGroupIds: ""
+  ingressSecurityGroupIds: ""
+  customDefinedAutomationAdminRole: ""
+automationService:
+  jenkinsOrGithubActions: gheactions
+  jenkinsWebhook: ""
+gheOrganisation:
+  organisationName: kkanto
+  isNew: false
+testingTools:
+  sonarQube: false
